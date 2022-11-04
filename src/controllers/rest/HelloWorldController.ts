@@ -17,15 +17,15 @@ export class HelloWorldController {
   }
   pSum()
   {//290
-    return 140+150;
+    return 1+1;
   }
-
-  sumar2numeros(num1: number, num2:number)
-  {
-    return num1+num2;
+  sumNumbers(num1: number, num2:number){
+    return num1 + num2
   }
-
-  FtoC(fahrenheit:number) {
-    return (5/9) * (fahrenheit-32);
+  mulNumbers(num1: number, num2:number){
+    return num1 * num2
+  }
+  divNumbers(num1: number, num2:number){
+    return num1 / num2
   }
 }
